@@ -1,0 +1,314 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="en">
+<head>
+<!-- Temenos T24 API. Generated on ?????? ????? ?? ??:??:?? EET ???? -->
+<title>classNameNoExt</title>
+<meta name="date" content="2017-09-27">
+<link rel="stylesheet" type="text/css" href="../../../../../stylesheet.css" title="Style">
+<script type="text/javascript" src="<backToRoot>/script.js"></script>
+</head>
+<body>
+<script type="text/javascript"><!--
+    try {
+        if (location.href.indexOf('is-external=true') == -1) {
+            parent.document.title="Date";
+        }
+    }
+    catch(err) {
+    }
+//-->
+var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10};
+var tabs = {65535:["t0","All Methods"]};
+var altColor = "altColor";
+var rowColor = "rowColor";
+var tableTab = "tableTab";
+var activeTableTab = "activeTableTab";
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar.top">
+<!--   -->
+</a>
+<div class="skipNav"><a href="#skip.navbar.top" title="Skip navigation links">Skip navigation links</a></div>
+<a name="navbar.top.firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../../index-all.html">Index</a></li>
+<li><a href="../../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../../com/temenos/t24/api/system/Date.html" title="class in com.temenos.t24.api.system"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
+<li><a href="../../../../../com/temenos/t24/api/system/Date.html" title="class in com.temenos.t24.api.system"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../../index.html?com/temenos/t24/api/system/Date.html" target="_top">Frames</a></li>
+<li><a href="Date.html" target="_top">No&nbsp;Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../../allclasses-noframe.html">All&nbsp;Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor.summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method.summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor.detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method.detail">Method</a></li>
+</ul>
+</div>
+<a name="skip.navbar.top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<div class="subTitle">com.temenos.t24.api.system</div>
+<h2 title="Class Date" class="title"><span class="abstracted"></span>Class Date</h2>
+<h3 class="title">Packaged in : EB.DateApi.jar</h3>
+</div> <!-- header -->
+<div class="contentContainer">
+<div class="description">
+Utility class that provides access to some of the date calculation routines in T24.<br>
+Emphasis is on providing access to those routines that can't be replicated with pure java, for example determining whether a date is a working day or not, which is only known by T24.
+<ul class="blockList">
+<li class="blockList">
+<hr>
+<div class="signature">public <span class="abstracted"></span>class <span class="typeNameLabel">Date</span></div>
+</li>
+</ul>
+</div> <!-- description -->
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor.summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor"><td class="colOne"><code><span class="memberNameLink"><a href="../../../../../com/temenos/t24/api/system/Date.html#Date-T24Context-">Date</a></span>(T24Context context)</code><div class="block">Create a new Date using a specific context..</div></td></tr>
+<tr class="rowColor"><td class="colOne"><code><span class="memberNameLink"><a href="../../../../../com/temenos/t24/api/system/Date.html#Date--">Date</a></span>()</code><div class="block">Default constructor. Create an empty Date. <b>Warning</b> : The class should be constructed with an existing T24Context. This will ensure that the contextual values relating to the user are set up. Many API methods will not work correctly if they do not have an initialised context..</div></td></tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd">&nbsp;</span></span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr id="i0" class="altColor"><td class="colFirst"><code>String</code></td><td class="colLast"><code><span class="memberNameLink"><a href="../../../../../com/temenos/t24/api/system/Date.html#addFrequency-String-">addFrequency</a></span>(String frequency)</code><div class="block">Cycles forwards to a new frequency based on a given T24 frequency.<br/></div></td></tr>
+<tr id="i1" class="rowColor"><td class="colFirst"><code>String</code></td><td class="colLast"><code><span class="memberNameLink"><a href="../../../../../com/temenos/t24/api/system/Date.html#addFrequency-String-TNumber-">addFrequency</a></span>(String frequency, TNumber numberOfIterations)</code><div class="block">Cycles forwards to a new frequency based on a given T24 frequency and number of iterations.</div></td></tr>
+<tr id="i2" class="altColor"><td class="colFirst"><code>TDate</code></td><td class="colLast"><code><span class="memberNameLink"><a href="../../../../../com/temenos/t24/api/system/Date.html#addWorkingDays-TDate-TNumber-">addWorkingDays</a></span>(TDate inDate, TNumber inOffsetDays)</code><div class="block">Returns the date after adding the offset in working days or null if the next working day cannot be calculated,
+for example if the date is undefined in the HOLIDAY table. </div></td></tr>
+<tr id="i3" class="rowColor"><td class="colFirst"><code>List&lt;<a href = "../../../../../com/temenos/t24/api/complex/eb/dateapi/HolidaySchedule.html">HolidaySchedule</a>&gt;</code></td><td class="colLast"><code><span class="memberNameLink"><a href="../../../../../com/temenos/t24/api/system/Date.html#getBranchHolidaySchedules--">getBranchHolidaySchedules</a></span>()</code><div class="block">Returns a list of HolidaySchedule objects, one for each defined year, for the branch of the current company.</div></td></tr>
+<tr id="i4" class="altColor"><td class="colFirst"><code><a href = "../../../../../com/temenos/t24/api/records/dates/DatesRecord.html">DatesRecord</a></code></td><td class="colLast"><code><span class="memberNameLink"><a href="../../../../../com/temenos/t24/api/system/Date.html#getDates--">getDates</a></span>()</code><div class="block">Returns a DatesRecord object containing all the date parameters defined for the current company.</div></td></tr>
+<tr id="i5" class="rowColor"><td class="colFirst"><code>String</code></td><td class="colLast"><code><span class="memberNameLink"><a href="../../../../../com/temenos/t24/api/system/Date.html#getDayType-TDate-">getDayType</a></span>(TDate inDate)</code><div class="block">Returns 'HOLIDAY' or 'WORKING_DAY' for the given date, based on the current COMPANY.</div></td></tr>
+<tr id="i6" class="altColor"><td class="colFirst"><code>List&lt;<a href = "../../../../../com/temenos/t24/api/complex/eb/dateapi/HolidaySchedule.html">HolidaySchedule</a>&gt;</code></td><td class="colLast"><code><span class="memberNameLink"><a href="../../../../../com/temenos/t24/api/system/Date.html#getHolidaySchedules--">getHolidaySchedules</a></span>()</code><div class="block">Returns a list of HolidaySchedule objects, one for each defined year, for the current company.</div></td></tr>
+<tr id="i7" class="rowColor"><td class="colFirst"><code>TNumber</code></td><td class="colLast"><code><span class="memberNameLink"><a href="../../../../../com/temenos/t24/api/system/Date.html#getMonthDifference-TDate-TDate-">getMonthDifference</a></span>(TDate startDate, TDate endDate)</code><div class="block">Returns the calculated number of complete months between two given dates.</div></td></tr>
+<tr id="i8" class="altColor"><td class="colFirst"><code>String</code></td><td class="colLast"><code><span class="memberNameLink"><a href="../../../../../com/temenos/t24/api/system/Date.html#getRecurrenceText-String-">getRecurrenceText</a></span>(String recurrence)</code><div class="block">Returns the translated T24 recurrence value like '20171127 e0y o1m o0w o1d BSNSS' into more natural language like</div></td></tr>
+<tr id="i9" class="rowColor"><td class="colFirst"><code>TNumber</code></td><td class="colLast"><code><span class="memberNameLink"><a href="../../../../../com/temenos/t24/api/system/Date.html#getWorkingDayDifference-TDate-TDate-">getWorkingDayDifference</a></span>(TDate startDate, TDate endDate)</code><div class="block">Returns the calculated number of working days between two given dates. Note that core java libraries also provide this eg the java.time.Duration.</div></td></tr>
+<tr id="i10" class="altColor"><td class="colFirst"><code>String</code></td><td class="colLast"><code><span class="memberNameLink"><a href="../../../../../com/temenos/t24/api/system/Date.html#gregorianToJulian-TDate-">gregorianToJulian</a></span>(TDate gregorianDate)</code><div class="block">Converts a date from Gregorian format (YYYYMMDD) into Julian format (YYYYDDD, where DDD is the number of days since the beginning of the year).</div></td></tr>
+<tr id="i11" class="rowColor"><td class="colFirst"><code>TDate</code></td><td class="colLast"><code><span class="memberNameLink"><a href="../../../../../com/temenos/t24/api/system/Date.html#julianToGregorian-String-">julianToGregorian</a></span>(String julianDate)</code><div class="block">Converts a date from Julian format (YYYYDDD, where DDD is the number of days since the beginning of the year) into Gregorian format (YYYYMMDD).</div></td></tr>
+<tr id="i12" class="altColor"><td class="colFirst"><code>String</code></td><td class="colLast"><code><span class="memberNameLink"><a href="../../../../../com/temenos/t24/api/system/Date.html#minusFrequency-String-">minusFrequency</a></span>(String frequency)</code><div class="block">Cycles backwards to a previous frequency based on a given T24 frequency.</div></td></tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.Object</h3>
+<code>equals, getClass, hashCode, notify, notifyAll, wait, wait, wait</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div> <!-- summary -->
+<div class="details">
+	<ul class="blockList">
+		<li class="blockList">
+		<!-- ========= CONSTRUCTOR DETAIL ======== -->
+			<ul class="blockList">
+				<li class="blockList"><a name="constructor.detail">
+					<!--   -->
+					</a>
+					<h3>Constructor Detail</h3>
+<a name="Date-T24Context-"><!--   --></a><ul class="blockListLast"><li class="blockList"><h4>Date</h4><div class="signature">public&nbsp;Date(T24Context)</div><div class="block">Create a new Date using a specific context.</div></li></ul>
+<a name="Date--"><!--   --></a><ul class="blockListLast"><li class="blockList"><h4>Date</h4><div class="signature">public&nbsp;Date()</div><div class="block">Default constructor. Create an empty Date. <b>Warning</b> : The class should be constructed with an existing T24Context. This will ensure that the contextual values relating to the user are set up. Many API methods will not work correctly if they do not have an initialised context.</div></li></ul>
+				</li>
+			</ul>
+		<!-- ============ METHOD DETAIL ========== -->
+			<ul class="blockList">
+				<li class="blockList"><a name="method.detail">
+					<!--   -->
+					</a>
+					<h3>Method Detail</h3>
+<a name="addFrequency-String-"><!--   --></a><ul class="blockList"><li class="blockList"><h4>addFrequency</h4><div class="signature">public&nbsp;String&nbsp;addFrequency(String frequency)</div><div class="block">Cycles forwards to a new frequency based on a given T24 frequency.<br/>
+A T24 frequency is an initial date combined with a 'step' value. For example a value like '201711005M0630' the step value is 'M0630' which means 'every six months on the thirtieth (or end of month)'
+This method is a simple way to calculate the next frequency value.<br/>
+It is intended to support java developers who receive such a value and need to increment it, without needing to know about the different types of frequency objects.<br/>
+<br/><b>T24 Details:</b> :  Uses the CFQ routine in T24.
+</div><dl><dt><span class="paramLabel">Parameters:</span></dt><dd><code>frequency</code> - The T24 frequency value, like '20171105BSNSS'.</dd><dt><span class="returnLabel">Returns:</span></dt><dd><code>String</code> - A string representing a new frequency in T24.</dd><dt><span class="throwsLabel">Throws:</span></dt><dd>T24CoreException if the given frequency is invalid</dd></dl></li></ul>
+<a name="addFrequency-String-TNumber-"><!--   --></a><ul class="blockList"><li class="blockList"><h4>addFrequency</h4><div class="signature">public&nbsp;String&nbsp;addFrequency(String frequency, TNumber numberOfIterations)</div><div class="block">Cycles forwards to a new frequency based on a given T24 frequency and number of iterations.
+A T24 frequency is an initial date combined with a 'step' value. For example a value like '201711005M0630' the step value is 'M0630' which means 'every six months on the thirtieth (or end of month)'
+This method is a simple way to calculate the next frequency value.
+It is intended to support java developers who receive such a value from T24 and need to calculate the next value, without needing to know about the different types of frequency objects.
+<br/><b>T24 Details:</b> :  Uses the MULTI.CFQ routine in T24.
+</div><dl><dt><span class="paramLabel">Parameters:</span></dt><dd><code>frequency</code> - The T24 frequency value, like '20171105BSNSS'.<br><code>numberOfIterations</code> - Just cycle forwards once.</dd><dt><span class="returnLabel">Returns:</span></dt><dd><code>String</code> - A string representing a new frequency in T24.</dd></dl></li></ul>
+<a name="addWorkingDays-TDate-TNumber-"><!--   --></a><ul class="blockList"><li class="blockList"><h4>addWorkingDays</h4><div class="signature">public&nbsp;TDate&nbsp;addWorkingDays(TDate inDate, TNumber inOffsetDays)</div><div class="block">Returns the date after adding the offset in working days or null if the next working day cannot be calculated,
+for example if the date is undefined in the HOLIDAY table. <br>
+<br/><b>T24 Details:</b> : Uses the CDT routine in T24.
+</div><dl><dt><span class="paramLabel">Parameters:</span></dt><dd><code>inDate</code> - The date to offset from.<br><code>inOffsetDays</code> - The number of working days offset, can be positive or negative.</dd><dt><span class="returnLabel">Returns:</span></dt><dd><code>TDate</code> - A new date with the given number of working days added (or subtracted).</dd></dl></li></ul>
+<a name="getBranchHolidaySchedules--"><!--   --></a><ul class="blockList"><li class="blockList"><h4>getBranchHolidaySchedules</h4><div class="signature">public&nbsp;List&lt;<a href = "../../../../../com/temenos/t24/api/complex/eb/dateapi/HolidaySchedule.html">HolidaySchedule</a>&gt;&nbsp;getBranchHolidaySchedules()</div><div class="block">Returns a list of HolidaySchedule objects, one for each defined year, for the branch of the current company.
+HolidaySchedule contains weekend days and public holidays for the year.
+<br/><b>T24 Details:</b> :  Returns values from the HOLIDAY table, based on the ID specified in the BRANCH.HOLIDAY field of the users current COMPANY.
+</div><dl><dt><span class="paramLabel">Parameters:</span></dt><dd></dd><dt><span class="returnLabel">Returns:</span></dt><dd><code>List&lt;<a href = "../../../../../com/temenos/t24/api/complex/eb/dateapi/HolidaySchedule.html">HolidaySchedule</a>&gt;</code> - A list of HolidaySchedule objects, one for each year defined in the HOLIDAY table.</dd></dl></li></ul>
+<a name="getDates--"><!--   --></a><ul class="blockList"><li class="blockList"><h4>getDates</h4><div class="signature">public&nbsp;<a href = "../../../../../com/temenos/t24/api/records/dates/DatesRecord.html">DatesRecord</a>&nbsp;getDates()</div><div class="block">Returns a DatesRecord object containing all the date parameters defined for the current company.<br>
+<br/><b>T24 Details:</b> : Returns a representation of R.DATES. No READs are executed so if performance is required then this method should be faster than reading the record.
+</div><dl><dt><span class="paramLabel">Parameters:</span></dt><dd></dd><dt><span class="returnLabel">Returns:</span></dt><dd><code><a href = "../../../../../com/temenos/t24/api/records/dates/DatesRecord.html">DatesRecord</a></code> - Returns a DatesRecord object containing all the date parameters defined for the current company.</dd></dl></li></ul>
+<a name="getDayType-TDate-"><!--   --></a><ul class="blockList"><li class="blockList"><h4>getDayType</h4><div class="signature">public&nbsp;String&nbsp;getDayType(TDate inDate)</div><div class="block">Returns 'HOLIDAY' or 'WORKING_DAY' for the given date, based on the current COMPANY.<br>
+<br/><b>T24 Details:</b> : Uses the AWD routine in T24 and the current logged in COMPANY to determine the type of day.
+</div><dl><dt><span class="paramLabel">Parameters:</span></dt><dd><code>inDate</code> - The date in YYYYMMDD format</dd><dt><span class="returnLabel">Returns:</span></dt><dd><code>String</code> - 'HOLIDAY' or 'WORKING_DAY' for the given date, or 'UNDEFINED' if the date is not defined in the HOLIDAY table.</dd></dl></li></ul>
+<a name="getHolidaySchedules--"><!--   --></a><ul class="blockList"><li class="blockList"><h4>getHolidaySchedules</h4><div class="signature">public&nbsp;List&lt;<a href = "../../../../../com/temenos/t24/api/complex/eb/dateapi/HolidaySchedule.html">HolidaySchedule</a>&gt;&nbsp;getHolidaySchedules()</div><div class="block">Returns a list of HolidaySchedule objects, one for each defined year, for the current company.
+HolidaySchedule contains weekend days and public holidays for the year.
+<br/><b>T24 Details:</b> :  Returns values from the HOLIDAY table, based on the ID specified in the OFFICIAL.HOLIDAY field of the users current COMPANY.
+</div><dl><dt><span class="paramLabel">Parameters:</span></dt><dd></dd><dt><span class="returnLabel">Returns:</span></dt><dd><code>List&lt;<a href = "../../../../../com/temenos/t24/api/complex/eb/dateapi/HolidaySchedule.html">HolidaySchedule</a>&gt;</code> - A list of HolidaySchedule objects, one for each year defined in the HOLIDAY table.</dd></dl></li></ul>
+<a name="getMonthDifference-TDate-TDate-"><!--   --></a><ul class="blockList"><li class="blockList"><h4>getMonthDifference</h4><div class="signature">public&nbsp;TNumber&nbsp;getMonthDifference(TDate startDate, TDate endDate)</div><div class="block">Returns the calculated number of complete months between two given dates.
+For example, 15 Jan - 14 Feb is 0 complete months, but 15 Jan to 15 Feb is 1 complete month.
+1 Jan to 28 Feb is also 1 complete month.
+No distinction is made between working days and holidays in this routine and it would be possible to
+write a pure java implementation of this routine, which is provided for convenience.
+<br/><b>T24 Details:</b> :  Uses the EB.NO.OF.MONTHS routine for the calculation.
+</div><dl><dt><span class="paramLabel">Parameters:</span></dt><dd><code>startDate</code> - The start date.<br><code>endDate</code> - The end date.</dd><dt><span class="returnLabel">Returns:</span></dt><dd><code>TNumber</code> - The number of complete months between two given dates.</dd></dl></li></ul>
+<a name="getRecurrenceText-String-"><!--   --></a><ul class="blockList"><li class="blockList"><h4>getRecurrenceText</h4><div class="signature">public&nbsp;String&nbsp;getRecurrenceText(String recurrence)</div><div class="block">Returns the translated T24 recurrence value like '20171127 e0y o1m o0w o1d BSNSS' into more natural language like
+'20171127 Every month on the first working day'.
+The return value will be translated into the users language if that has been defined, else will be in English.
+<br/><b>T24 Details:</b> :  Uses the EB.BUILD.RECURRENCE.MASK routine in T24.
+</div><dl><dt><span class="paramLabel">Parameters:</span></dt><dd><code>recurrence</code> - Recurrence value eg 'e0y e1m e0w o2d'.</dd><dt><span class="returnLabel">Returns:</span></dt><dd><code>String</code> - A string with a natural language interpretation of a T24 recurrence value.</dd></dl></li></ul>
+<a name="getWorkingDayDifference-TDate-TDate-"><!--   --></a><ul class="blockList"><li class="blockList"><h4>getWorkingDayDifference</h4><div class="signature">public&nbsp;TNumber&nbsp;getWorkingDayDifference(TDate startDate, TDate endDate)</div><div class="block">Returns the calculated number of working days between two given dates. Note that core java libraries also provide this eg the java.time.Duration.
+Uses the HOLIDAY table and current logged in COMPANY in T24 to determine which days are working days.
+endDate is not counted in the calculation, for example getting the number of working days between a Monday and a Tuesday will return '1'.
+Getting the number of working days between Thursday and Tuesday with a 2 day weekend in between will return '3'.
+<br/><b>T24 Details:</b> :  Uses the CDD routine in T24.
+</div><dl><dt><span class="paramLabel">Parameters:</span></dt><dd><code>startDate</code> - The start date.<br><code>endDate</code> - The end date.</dd><dt><span class="returnLabel">Returns:</span></dt><dd><code>TNumber</code> - The calculated number of working days between the given dates.</dd></dl></li></ul>
+<a name="gregorianToJulian-TDate-"><!--   --></a><ul class="blockList"><li class="blockList"><h4>gregorianToJulian</h4><div class="signature">public&nbsp;String&nbsp;gregorianToJulian(TDate gregorianDate)</div><div class="block">Converts a date from Gregorian format (YYYYMMDD) into Julian format (YYYYDDD, where DDD is the number of days since the beginning of the year).
+<br/><b>T24 Details:</b> :  Uses the JULDATE routine in T24.
+</div><dl><dt><span class="paramLabel">Parameters:</span></dt><dd><code>gregorianDate</code> - Date to convert, in YYYYMMDD format.</dd><dt><span class="returnLabel">Returns:</span></dt><dd><code>String</code> - The given date in Julian format.</dd></dl></li></ul>
+<a name="julianToGregorian-String-"><!--   --></a><ul class="blockList"><li class="blockList"><h4>julianToGregorian</h4><div class="signature">public&nbsp;TDate&nbsp;julianToGregorian(String julianDate)</div><div class="block">Converts a date from Julian format (YYYYDDD, where DDD is the number of days since the beginning of the year) into Gregorian format (YYYYMMDD).
+<br/><b>T24 Details:</b> :  Uses the JULDATE routine in T24.
+</div><dl><dt><span class="paramLabel">Parameters:</span></dt><dd><code>julianDate</code> - Date to convert, in YYYYDDD format.</dd><dt><span class="returnLabel">Returns:</span></dt><dd><code>TDate</code> - The given date in YYYYMMDD format.</dd></dl></li></ul>
+<a name="minusFrequency-String-"><!--   --></a><ul class="blockList"><li class="blockList"><h4>minusFrequency</h4><div class="signature">public&nbsp;String&nbsp;minusFrequency(String frequency)</div><div class="block">Cycles backwards to a previous frequency based on a given T24 frequency.
+A T24 frequency is an initial date combined with a 'step' value. For example a value like '201711005M0630' the step value is 'M0631' which means 'every six months on the thirty first (or end of month)'
+This method is a simple way to calculate the previous frequency value.
+It is intended to support java developers who receive such a value and need to increment it, without needing to know about the different types of frequency objects.
+<br/><b>T24 Details:</b> :  Uses the CBQ routine in T24.
+</div><dl><dt><span class="paramLabel">Parameters:</span></dt><dd><code>frequency</code> - The T24 frequency value, like '20171105BSNSS'.</dd><dt><span class="returnLabel">Returns:</span></dt><dd><code>String</code> - A string representing a new frequency in T24.</dd></dl></li></ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div> <!-- details -->
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar.bottom">
+<!--   -->
+</a>
+<div class="skipNav"><a href="#skip.navbar.bottom" title="Skip navigation links">Skip navigation links</a></div>
+<a name="navbar.bottom.firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../../index-all.html">Index</a></li>
+<li><a href="../../../../../help-doc.html">Help</a></li>
+</ul>
+</div> <!-- bottomNav -->
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../../com/temenos/t24/api/system/Date.html" title="class in com.temenos.t24.api.system"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
+<li><a href="../../../../../com/temenos/t24/api/system/Date.html" title="class in com.temenos.t24.api.system"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../../index.html?com/temenos/t24/api/system/Date.html" target="_top">Frames</a></li>
+<li><a href="Date.html" target="_top">No&nbsp;Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../../allclasses-noframe.html">All&nbsp;Classes</a></li>
+</ul>
+
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div> <!-- subNav -->
+<div> 
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor.summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method.summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor.detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method.detail">Method</a></li>
+</ul>
+</div> 
+<a name="skip.navbar.bottom">
+<!--   -->
+</a></div> <!-- contentContainer -->
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+</body>
+</html>
